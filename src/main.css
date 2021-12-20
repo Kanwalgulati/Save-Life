@@ -1,0 +1,580 @@
+*{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  /* margin:0; */
+  }
+  .header {
+    width: 100%;
+    /* height: 40%; */
+    border-bottom: 1px solid rgb(104, 4, 4);
+    background-color: rgb(199, 43, 43);
+    display: flex;
+    flex-direction: row;
+  }
+  .logo {
+    border-radius: 100px;
+    width: 180px;
+    margin: 5px;
+    margin-left: 12%;
+  }
+  .header h1 {
+    margin-left: 5%;
+    /* border:1px solid black */
+    color: white;
+    font-size: 60px;
+    margin-top: 15px;
+  }
+  .nav {
+    background-color: rgb(199, 43, 43);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 50px;
+  }
+  .nav a:active {
+    color: blue;
+  }
+  .nav a {
+    color: white;
+    text-decoration: none;
+    transition: transform 0.8s;
+  }
+  .nav a:hover {
+    color: blue;
+    /* background-color: white; */
+  }
+  .ab {
+    margin-top: 15px;
+  }
+  .logo3 {
+    height: 70px;
+    width: 70px;
+    border-radius: 100px;
+    margin-top: 27px;
+    margin-left: -80%;
+  }
+  .img {
+    transition: transform 0.8s;
+  }
+  .img:hover {
+    transform: scale(1.2);
+  }
+  
+  
+  .welcome_div {
+    display: flex;
+    flex-direction: row;
+    height: 85vh;
+  }
+  .welcome_div1 {
+    width: 35%;
+    margin-left: 50px;
+    position: relative;
+    opacity: 0;
+    animation: mymove 2s;
+    animation-fill-mode: forwards;
+    margin-top: 50px;
+  }
+  @keyframes mymove {
+    from {
+      left: 0px;
+    }
+    to {
+      left: 50px;
+      opacity: 1;
+    }
+  }
+  .welcome_div1 h1 {
+    color: rgb(199, 19, 19);
+    font-size: 50px;
+    margin-left: -20%;
+    font-family: arial, sans-serif;
+  }
+  
+  .welcome_right {
+    margin-left: 190px;
+    margin-top: 14%;
+    position: relative;
+    opacity: 0;
+    animation: mymove2 3s;
+    animation-fill-mode: forwards;
+  }
+  @keyframes mymove2 {
+    from {
+      right: 0px;
+    }
+    to {
+      right: 10px;
+      opacity: 1;
+    }
+  }
+  .logo3_wel {
+    width: 80%;
+    height: 115%;
+  }
+  .logo_set {
+    display: flex;
+    flex-direction: row;
+  }
+  .logo_set hr {
+    margin-top: -30px;
+    margin-left: -20%;
+    width: 100%;
+    color: red;
+  }
+  .welcome_div1 p {
+    color: white;
+    margin-top: -10px;
+    padding: 2px;
+    font-family: arial, sans-serif;
+  }
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 2%;
+  }
+  .column {
+    flex: 20%;
+  }
+  .column img {
+    margin-top: 8px;
+    width: 95%;
+  }
+  .bottam_sec {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    opacity: 0.1;
+    animation: mymove1 3s;
+    animation-fill-mode: forwards;
+    margin-bottom: 60px;
+  }
+  .b_hr {
+    height: 200px;
+    margin-top: 5%;
+    margin-left: 5%;
+  }
+  @keyframes mymove1 {
+    from {
+      left: 0%;
+    }
+    to {
+      left: 5%;
+      opacity: 1;
+    }
+  }
+  .left {
+    width: 40%;
+    /* margin-left:10%; */
+    font-family: arial, sans-serif;
+  }
+  .left hr {
+    margin-left: 2px;
+    margin-top: -20px;
+  }
+  .left h1 {
+    color: red;
+  }
+  .right {
+    width: 27%;
+    margin-top: 7%;
+    margin-left: 0%;
+    font-family: arial, sans-serif;
+  }
+  .right h1 {
+    color: red;
+    margin-left: -70%;
+  }
+  .right ol {
+    margin-left: -60%;
+  }
+  .b_sec_right_hr {
+    width: 50%;
+    margin-left: -70%;
+    margin-top: -5%;
+  }
+  .footer {
+    width: 100%;
+    height: 40px;
+    position: fixed;
+    bottom: 0;
+    /* margin-top: 10%; */
+    background-color: rgb(240, 223, 223);
+  }
+  .footer p {
+    text-align: center;
+    padding: 5px;
+    font-family: arial, sans-serif;
+    font-size: 12px;
+  }
+  .name {
+    margin-left: 100px;
+  }
+  .age {
+    margin-left: 112px;
+  }
+  .mobile {
+    margin-left: 64px;
+  }
+  .select_bloodgroup {
+    margin-left: 60px;
+  }
+  .select_gender {
+    margin-left: 90px;
+  }
+  .login form {
+    margin-left: 25%;
+  }
+  .name1 {
+    margin-left: 50px;
+  }
+  .login button {
+    margin-bottom: 30px;
+    margin-left: 150px;
+    margin-top: 30px;
+  }
+  .login h1 {
+    color: red;
+    text-align: center;
+    font-family: arial, sans-serif;
+    font-size: 55px;
+    margin-top: -5px;
+    font-weight: normal;
+  }
+  .login {
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 10px;
+    box-shadow: 3px ;
+    margin-bottom: 60px;
+  }
+  .request h1{
+    margin-top: -6%;
+  }
+  .logo4 {
+    height: 90px;
+    width: 90px;
+    /* border-radius: 70px; */
+    margin-top: 30px;
+  }
+  .view_req_box {
+    width: 80%;
+    min-height: 286px;
+    /* border:2px solid red; */
+    margin-left: 10%;
+    margin-top: 2%;
+    margin-bottom: 60px;
+    /* box-shadow: 3px 3px #df5656; */
+    background-color: rgb(244, 247, 252);
+  }
+  .view_req_box table {
+    width: 100%;
+    padding: 10px;
+  }
+  .view_req_box td {
+    margin-left: 10px;
+    padding: 10px;
+    text-align: center;
+  }
+  .view_req_box th {
+    text-align: center;
+    background-color: rgb(209, 19, 35);
+    padding: 7px;
+    color: white;
+  }
+  .view_req_box h1 {
+    text-align: center;
+    font-size: 50px;
+    color: red;
+    font-family: arial, sans-serif;
+    font-weight: 900;
+  }
+  
+  .camps_flex {
+  display: flex;
+  /* /* flex:1 1 100px; */
+  justify-content: space-around;
+   flex-wrap:wrap;
+    overflow-y:hidden; 
+    margin-left: 10px;
+    padding-left: 10px;
+    margin-right: 10px;
+    background-color: rgb(247, 247, 248);
+    margin-bottom: 60px;
+    /* width: 100%; */
+  
+  }
+  
+  .main_login {
+    margin-bottom: 60px
+  
+  }
+  .password {
+    margin-left: 70px;
+  }
+  .profile {
+    display: flex;
+    width: 100%;
+    margin-left: 5%;
+    margin-top: 20px;
+  }
+  .profile_left {
+    height: 550px;
+    width: 65%;
+    /* border: 1px solid black;  */
+    margin-left: 2%;
+    margin-top: 20px;
+    background-color: rgb(244, 247, 252);
+  }
+  .profile_main2 {
+    background-color: rgb(231, 237, 247);
+    margin-top: 20px;
+    width: 32%;
+    height: 460px;
+    margin-left: 0.5%;
+  }
+  .profile_main {
+    display: flex;
+    margin-bottom: 60px;
+  }
+  .profile_right h2 {
+    font-family: arial, sans-serif;
+    font-weight: normal;
+    font-size: 34px;
+  }
+  .feedback {
+    margin-left: 140px;
+  }
+  .main_login h1 {
+    font-family: arial, sans-serif;
+    color: red;
+    text-align: center;
+    font-size: 44px;
+    margin-top: -10px;
+    font-weight: normal;
+  }
+  .profile_h1 h1 {
+    font-family: arial, sans-serif;
+    color: red;
+    text-align: center;
+    font-size: 35px;
+    /* margin-top: -30px; */
+    font-weight: normal;
+  }
+  .camps_img {
+    display: flex;
+    justify-content: space-evenly;
+  }
+  .camps_img img {
+    height: 180px;
+    width: 180px;
+  }
+  .camps_h1 {
+    text-align: center;
+    color: red;
+    font-family: arial, sans-serif;
+    font-size: 55px;
+    font-weight: normal;
+    margin-top: -6px;
+    margin-bottom: -3px;
+  }
+  .profile_table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 120%;
+  }
+  .profile_table td {
+    /* border: 1px solid #dddddd; */
+    text-align: left;
+    padding: 10px;
+  }
+  .profile_bottom_table {
+    margin-left: 5%;
+  }
+  .profile_left table {
+    width: 100%;
+    padding: 5px;
+    font-family: arial, sans-serif;
+  }
+  .profile_left td {
+    margin-left: 10px;
+    padding: 2px;
+    text-align: center;
+  }
+  .profile_left th {
+    text-align: center;
+    color: black;
+    text-align: center;
+    background-color: rgb(248, 204, 208);
+    padding: 5px;
+    /* color: white; */
+  }
+  .profile_left h1{
+    font-family: arial, sans-serif;
+    color: red;
+    text-align: center;
+    font-size: 35px;
+    /* margin-top: -30px; */
+    font-weight: normal;
+  
+  }
+  .profile_left h4{
+    font-family: arial, sans-serif;
+    color: red;
+    text-align: center;
+    font-weight: normal;
+  
+  }
+  .blood_donated{
+    width:60%;
+    margin-left: 20%;
+    margin-top: 2%;
+    margin-bottom: 60px;
+    /* background-color: black; */
+    min-height: 304px;
+  }
+  .blood_donated h1{
+    font-family: arial, sans-serif;
+    color: red;
+    text-align: center;
+    font-size: 35px;
+    /* margin-top: -30px; */
+    font-weight: normal;
+    margin-top: 0px;
+  }
+  .blood_donated  h4{
+    font-family: arial, sans-serif;
+    color: red;
+    text-align: center;
+    font-size: 20px;
+    /* margin-top: -30px; */
+    font-weight: normal;
+    margin-top: 0px;
+  }
+  .donate_table{
+    width: 100%;
+    padding: 5px;
+    font-family: arial, sans-serif;
+  
+  }
+  .donate_table td {
+    /* margin-left: 10px;
+    margin-top: 10px; */
+    padding: 5px;
+    text-align: center;
+  }
+  /* about us */
+  .column {
+    float: left;
+    width: 33.3%;
+    margin-bottom: 16px;
+    padding: 0 8px;
+  }
+  
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    margin: 8px;
+  }
+  
+  .about-section {
+    padding: 50px;
+    text-align: center;
+    background-color: #edf2fc;
+    color: black;
+  }
+  
+  .container {
+    padding: 0 16px;
+  }
+  
+  .container::after, .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+  .title {
+    color: grey;
+  }
+  
+  .button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+  }
+  
+  .button:hover {
+    background-color: #555;
+  }
+  .about-main{
+    margin-bottom: 60px;
+  }
+  .about-main h2{
+    text-align: center;
+  }
+  .camps_header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .camps_header Button{
+    margin-top: 5px;
+    margin-right: 5px;
+  }
+  .av {
+    margin:150px
+  }
+  .viewRequestLoader{
+    margin-top: 50px;
+  margin-left: 500px;
+  }
+  .homePageLoader{
+    display: flex;
+    flex-direction: column;
+    margin-top:15%;
+    margin-left: 43%;
+  }
+  .logoLoader{
+    width:150px
+  }
+  .homeLoader{
+    margin-left: 60px;
+    margin-top: 10px;
+  }
+  .loginLoader{
+    margin-top:7px;
+    margin-left: 43%;
+  }
+  .deleteicon{
+    cursor: pointer;
+    margin: 2px;
+  }
+  .buttonFlex{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  .buttonFlex button {
+    margin-left: 5px;
+  }
+  .buttonFlex a{
+    text-decoration: none;
+  }
+  .MuiTableHead-root{
+    color:green
+  }
+  .tableHeader{
+    display: flex;
+    flex-direction: row;
+  }
+  .TabelLoader{
+    margin-top: 10%;
+    margin-left: 45%;
+  }
